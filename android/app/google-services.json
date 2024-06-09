@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63745056565",
+    "project_id": "flutter-chatbot-2e4a7",
+    "storage_bucket": "flutter-chatbot-2e4a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63745056565:android:f5684271f7072440d4f67c",
+        "android_client_info": {
+          "package_name": "com.mycompany.chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3XMLMdzfWIBDq8tnrto3BEftAzkaYb5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
