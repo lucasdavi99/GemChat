@@ -106,8 +106,8 @@ class _ChatWidgetState extends State<ChatWidget> with TickerProviderStateMixin {
         ),
         body: SafeArea(
           top: true,
-          child: Padding(
-            padding: const EdgeInsets.all(15.0),
+          child: SingleChildScrollView(
+            primary: false,
             child: Column(
               mainAxisSize: MainAxisSize.max,
               children: [
@@ -151,6 +151,7 @@ class _ChatWidgetState extends State<ChatWidget> with TickerProviderStateMixin {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Expanded(
+                        flex: 2,
                         child: Padding(
                           padding: const EdgeInsetsDirectional.fromSTEB(
                               8.0, 0.0, 8.0, 0.0),

@@ -5,7 +5,7 @@
 
 
     <application
-        android:label="ChatBot"
+        android:label="GemChat"
         tools:replace="android:label"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true">

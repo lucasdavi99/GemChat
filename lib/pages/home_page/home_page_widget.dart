@@ -133,6 +133,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                     'Bem vindo a GemChat',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Readex Pro',
+                          color: const Color(0xFF00FFD5),
                           fontSize: 30.0,
                           letterSpacing: 0.0,
                           fontWeight: FontWeight.w800,
